@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+main{
+    height: 742px;}
+.top-header{
+    background: #1CD1B0;
+    padding: 13px;
+    position: relative;
+    font-family:'Roboto', sans-serif;
+    font-weight: 400;
+}
+.top-main{
+    background: #00669F;
+    position: relative;
+    padding: 10px;
+    font-family:'Roboto', sans-serif;
+    font-weight: 400;
+}
+.card{
+    position: relative;
+    width: 300px;
+    height: 500px;
+    left: 4%;
+    top: 100px;
+    background: #E5E5E5;
+    box-shadow:  0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.212);
+}
+/* FOTO DE LA CARTA */
+.card_selfie{
+    border-radius: 50%;
+    position: absolute;
+    left: 30%;
+    top: 26.5%;
+}
+/* FONDO DE LA CARTA */
+.background_card{
+    position: absolute;
+    
+}
+/* CORAZON */
+.heart-icon{
+    position: absolute;
+    left: 7%;
+    top: 3%;
+}
+/* NOMBRE DE LA CARTA */
+.name-card{
+    position:absolute;
+    color: black;
+    top: 54%;
+    left: 100px;
+    font-family:'Roboto', sans-serif;
+    font-weight: 400;
+}
+/* TEXTO DE LA CARTA */
+.data-card{
+    position: absolute;
+    align-items:;
+    bottom: 12%;
+    padding: 5%;
+    font-family:'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+}
+.bottom{
+    position: absolute;
+    bottom: 0%;
+    left: 30%;
+    padding: 10px 23px 10px 23px;
+    margin: 10px;
+    color: white;
+    background-color: #00669F;
+    border: none;
+    box-sizing: border-box;
+
+}
+
+.footer{
+    position:relative;
+    text-align: justify;
+    background-color:#00669F;
+    color: white;
+    padding: left 50px;
+    
+}
+
+
+/* HARLEY */
+
+.card2{
+    position: relative;
+    width: 300px;
+    height: 500px;
+    left: 40%;
+    top: -400px;
+    background: #E5E5E5;
+    box-shadow:  0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.212);
+}
+.card3{
+    position: relative;
+    width: 300px;
+    height: 500px;
+    left: 76%;
+    top: -900px;
+    background: #E5E5E5;
+    box-shadow:  0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.212);
+}
